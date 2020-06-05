@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
 import {ThemeContext} from '../contexts/ThemeContext';
 
-/*****************************
+/*********************************
  * using ThemeContext.Consumer
+ * can also be used in functional 
+ * components. Also we can consume
+ * multiple contexts using this 
  */
 class BookList extends Component {
     render() {
